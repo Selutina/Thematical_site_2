@@ -1,0 +1,330 @@
+.header {
+    width: 100%;
+    height: 11%;
+    background-color:#795b50;
+    top:0;
+    left:0;
+    position: fixed;
+    font-size: 10px;
+z-index: 1000;
+}
+body {
+background-color: #ffffff;
+margin:0px;
+display: flex;
+font-family: fantasy;
+}
+.logo {
+display: none;
+}
+.mainphoto {
+    width: 100%;
+    margin-top:16%;
+    left:0px;
+}
+.start {
+    background-color: #ffffff8c;
+    width: 40%;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-40vh;
+    position: relative;
+    text-align: center;
+    color:#795b50;
+    text-transform:uppercase;
+    font-size: 25px;
+    padding: 5vh;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    margin: 1vh;
+    position: absolute;
+    float: left;
+    width: 100%;
+}
+.items {
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    margin: 14px;
+    margin-left: 1vh;
+}
+.items:hover {
+transform: scale(1.1);
+transition: all 0.5s;
+}
+.btn {
+width: 70%;
+height: 30%;
+background-color: #795b50;
+font-size: 30px;
+margin-left:15%;
+margin-top:7%;
+color:#fff;
+text-align: center;
+font-weight: 400;
+padding-top: 3%;
+transition: 0.5s;
+}
+.btn:hover {
+    background-color: #ffffff;
+    color:#795b50;
+}
+.info
+{
+    background-color: #d8d8d8;
+    color:#303030;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    width: 100%;
+    margin-top:10vh;
+height: 4vh;
+font-weight: 400;
+padding-top:1vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.photos {
+    width: 100%;
+    margin-top:0vh;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+.photo {
+    height: 10%;
+    width:32.9%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    }
+    .p1 {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 40px;
+        text-transform:uppercase;
+        color: #303030;
+        letter-spacing: 11px;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+        margin: 3% 10% 3%;
+        background-color: #303030;
+        width: 80%;
+        height: 2px;
+    }
+    .p2 {
+        color: #303030;
+        letter-spacing: 4px;
+        font-weight: 300;
+        text-align: center;
+        font-size: 37px;
+        margin-top:12vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .product {
+        height: 70vh;
+        width:29%;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        border-radius: 1vh;
+        margin-left: 2vh;
+        transition: 0.3s;
+        }
+        .product:hover {
+            box-shadow: 10px 20px 30px #585858;
+            transform: scale(1.03);
+        }
+.main {
+    width: 80%;
+    margin-top:1vh;
+    margin-left: 10%;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+.photos2 {
+    width: 30%;
+    margin: 1vh 5% 0vh 5%;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+.photo2 {
+    height: 60vh;
+    width:37.6vh;
+    background-position: center;
+    display: inline-block;
+    margin-left: auto;
+    transition: 0.3s;
+    background-size: cover;
+    animation-name: Appearance;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+    }
+    @-webkit-keyframes Appearance {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+      
+      @-o-keyframes Appearance {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+      
+      @-moz-keyframes Appearance {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+      
+      @keyframes Appearance {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+.photo2:hover {
+    box-shadow: 10px 20px 30px #CDBEAF;
+    transform: scale(1.05);
+}
+h2 {
+    margin: 0% 20% 5% 20%;
+    background-color: #5e5e5e;
+    width: 60%;
+    height: 2px;
+}
+.p3 {
+    color: #303030;
+    letter-spacing: 6px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inform {
+    background-color: #ffffff98;
+    margin-top: 130%;
+    width: 100%;
+    height: 10%;
+    font-size: 25px;
+    padding-top: 1vh;
+    text-align: center;
+}
+.imgdress {
+    margin: 1%;
+    margin-top: 15vh;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 50vh;
+    display: inline-block;
+    border-radius: 3%;
+    transition: 0.5s;
+}
+.imgdress:hover {
+    box-shadow: 10px 20px 30px #CDBEAF;
+    transform: scale(1.02);
+}
+.imginfo {
+    color:#6d5348;
+    font-size: 30px;
+    display: inline-block;
+    margin-left:131vh;
+    font-weight: 700;
+    margin-top: -80vh;
+}
+.price {
+    height: 8%;
+    width: 73vh;
+    color:#7e6053;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #be8c5ea8;
+    position: absolute;
+    top:25vh;
+    left:59%;
+    padding-top: 1%;
+    text-align: center;
+    font-weight: 700;
+}
+.info1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: -1vh;
+    padding-bottom: 2%;
+    text-align: center;
+    color:#B8895C;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    top:40%;
+    left:59%;
+    position: absolute;
+}
+.block {
+    margin-top:5vh;
+    width: 150vh;
+    background-color: #B8895C;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 20vh;
+}
+.imgstat {
+    width: 17vh;
+    height: 11vh;
+    margin-left:1vh;
+    position: absolute;
+    margin-top:5vh;
+}
+.stata100 {
+    width: 100%;
+    height: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+}
+.shkala1 {
+    width: 63%;
+    background-color: #271c13;
+}
+.shkala2 {
+    width: 22%;
+    background-color: #271c13;
+}
+.shkala3 {
+    width: 15%;
+    background-color: #271c13;
+}
+.inst {
+position: absolute;
+height: 8vh;
+width: 8vh;
+margin-top:-6.5vh;
+margin-left:137vh;
+background-image: url(photos/inst.png);
+background-size: cover;
+background-position: center;
+z-index: 1000;
+}
+.youtube {
+    margin-top:5vh;
+    width: 60vh;
+    height: 35vh;
+    margin-left:1vh;
+}
+.map {
+    top:10%;
+    width:74vh;
+    height:98vh;
+    border: 0px;
+}
